@@ -1,6 +1,12 @@
+.flex{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 *{
   font-family: Arial;
-  font-size: 1.2em;
+  font-size: 1.15em;
   padding: 14px;
   margin: 4px;
   border-radius: 412px;
@@ -8,7 +14,8 @@
 
 body{
   background-color: rgb(158, 214, 218);
-  margin: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 h1{
@@ -24,9 +31,24 @@ section{
   margin: auto;
 }
 
+input{
+  width: 89%;
+  max-width: 396px;
+}
+
+select{
+  width: 100%;
+  max-width: 800px;
+}
+
+.btn-div{
+  justify-content: center;
+}
+
 button{
   width: 60px;
   height: 60px;
+  margin: 0px 20px;
 }
 
 button>img{
